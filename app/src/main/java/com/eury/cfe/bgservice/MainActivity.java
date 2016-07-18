@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
 
-                    boolean flag=AppManager.getInstance(mActivity).openAppPackName("cn.jj");
+                    boolean flag=AppManager.getInstance(mActivity).openAppPackName(packName);
                     if(!flag){
                         Toast.makeText(mActivity,"应用不存在",Toast.LENGTH_SHORT).show();
                         return;
