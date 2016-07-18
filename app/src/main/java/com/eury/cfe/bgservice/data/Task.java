@@ -10,8 +10,15 @@ public class Task implements Serializable {
     public Task(){
     }
 
+
+    /**
+     * 任务时长
+     */
     public Integer taskTime;
 
+    /**
+     * 任务包名
+     */
     public String packName;
 
     public Task(String packName,Integer taskTime){
