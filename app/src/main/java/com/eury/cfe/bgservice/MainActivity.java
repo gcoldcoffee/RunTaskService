@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void run() {
                             ArrayList<Task> tasks = new ArrayList<>();
-                            tasks.add(new Task(packName,5));
+                            tasks.add(new Task(packName,30));
                             Intent startintent = new Intent(MainActivity.this, BgService.class);
                             startintent.putExtra("tasks", tasks);
                             startService(startintent);

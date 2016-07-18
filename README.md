@@ -1,7 +1,6 @@
 # RunTaskService
 采用IntentService后台统计其他应用前台运行时长，同时监测了手机锁屏解锁状态，用于暂停以及重新开始计时。 IntentService是继承于Service并处理异步请求的一个类，在IntentService内有一个工作线程来处理耗时操作，启动IntentService的方式和启动传统Service一样，同时，当任务执行完后，IntentService会自动停止，而不需要我们去手动控制。
 
-实例：请下载安卓版：(http://ty.hamao.com/index_pc.html)
 
 Android 5.0以前我们可以采用：
 
