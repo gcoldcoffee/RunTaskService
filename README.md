@@ -13,3 +13,5 @@ ActivityManager am = (ActivityManager)context.getSystemService(Context.ACTIVITY_
 5.0之后：android.permission.PACKAGE_USAGE_STATS
 
 部分手机例如小米，在自身系统添加了电池性能模块--神隐模式，4～3钟左右会将后台应用关闭网络,GPS功能，此时需要手动开启(http://www.chinaz.com/mobile/2015/0824/437808.shtml )
+
+[合理优雅的进程保活方式](https://github.com/gcoldcoffee/AndroidDaemonService)
